@@ -1,7 +1,7 @@
 /*
  * File: 4-puts.c
  * Another comment
- */
+ *   */
 
 #include <stdio.h>
 /**
