@@ -1,9 +1,14 @@
+/*
+ * File: 6-size.c
+ * Another comment
+ */
+
 #include <stdio.h>
 /**
  *  *main -is the entry point for the program.
  *   *
  *    *Return:zero if no error, Non-zero value  if errors.
- *    exactly */
+ *     */
 int main(void)
 {
 		printf("Size of a char: %ld byte(s)\n", sizeof(char));
