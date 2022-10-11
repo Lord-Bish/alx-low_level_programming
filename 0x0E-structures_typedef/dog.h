@@ -1,5 +1,5 @@
-#ifndef _DOG_H
-#define _DOG_H
+#ifndef _DOG_H_
+#define _DOG_H_
 
 /* main: defines new struct, structure_dog
  *
