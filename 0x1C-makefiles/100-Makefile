@@ -2,7 +2,7 @@
 
 # Setting variables
 CC = gcc
-SRC = main.c holberton.c
+SRC = main.c school.c
 NAME = school
 OBJ = $(SRC:.c=.o) # Substitution References
 CFLAGS = -Wall -Werror -Wextra -pedantic
