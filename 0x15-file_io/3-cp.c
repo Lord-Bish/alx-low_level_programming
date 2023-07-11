@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
     }
 
     	while ((bytes_read = read(file_from, buffer, BUFFER_SIZE)) > 0) {
-        bytes_written = write(file_to, buffer, bytes_read);
+		bytes_written = write(file_to, buffer, bytes_read);
         	if (bytes_written == -1) {
             		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
             		exit(99);
