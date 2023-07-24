@@ -6,17 +6,20 @@
  * Return: Value of n
  */
 
-char *string_toupper(char *n)
-{
-int i;
+char *string_toupper(char *n) {
+    
+    char *ptr;
 
-i = 0;
+    if (n == NULL)
+        return NULL;
 
-while (n[i] != '\0')
-{
-	if (n[i] >= 97 && n[i] <= 122)
-	{
-		n[i] -= 32;
-	}
-	i++;
+    ptr = n;
+    while (*ptr != '\0') {
+        if (*ptr >= 'a' && *ptr <= 'z') {
+            *ptr = *ptr - ('a' - 'A');
+        }
+        ptr++;
+    }
+
+    return (n);
 }
